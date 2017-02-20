@@ -1,0 +1,12 @@
+html, body {
+	font-family: verdana;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+img {
+	border:5px solid #FFFFFF;
+	display: block;
+	margin: auto;
+}
