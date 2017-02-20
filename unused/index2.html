@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>The Awesome Test</title>
+
+	</head>
+
+
+	<body style="background-color:#00b300;color:white;font-family:Verdana">
+
+		<h1 style="text-align:center;font-size:250%;text-shadow:2px 2px #b3b3b3"><u>The Awesome Test</u></h1>
+		<h1 style="text-align:center;font-size:150%">Welcome to the Website that tells you whether or not you are awesome</h1>
+
+		<p><a href="upload.html">Upload</a> Stuff</p>
+
+
+
+<br>
+		<script>
+			function GetValue()
+				{
+				var myarray=new Array("You're Awesome!","You're NOT Awesome");
+				var random=myarray[Math.floor(Math.random()*myarray.length)];
+				document.getElementById("awesomeTest").innerHTML=random;
+				}
+		</script>
+		<p style=>Click this button to see if you're awesome:</p>
+		<button type="button" onclick="GetValue();">Awesome Test<br>Button</button>
+		<p style="font-size:300%;text-align:center" id="awesomeTest"></p>
+	</body>
+</html>
