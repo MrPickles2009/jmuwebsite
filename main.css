@@ -1,5 +1,8 @@
 html, body {
-	font-family: verdana;
+	font-family: 'BenjFont';
+	src:url('~/WWW/fonts/BenjFont.woff') format('woff'),
+		url('~/WWW/fonts/BenjFont.ttf') format('truetype'),
+		url('~/WWW/fonts/BenjFont.eot');
 	height: 100%;
 	margin: 0;
 	width: 100%;
